@@ -1,8 +1,20 @@
+
+<!--
+
+    
+        Author: Rolando Agullano
+        Date: 02/01/2021
+        File: navigate.php
+    
+        This file controls the footer
+-->       
+
+       
 <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Rolando Agullano 2021</p>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>

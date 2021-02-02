@@ -1,3 +1,15 @@
+    <!--
+
+    
+        Author: Rolando Agullano
+        Date: 02/01/2021
+        File: navigate.php
+    
+        This is the main screen for the application. By default it displays
+        all posts currently in the database.
+
+    -->
+    
     <!-- Connect to the database -->
     <?php include 'includes/db.php'; ?>
     
@@ -16,26 +28,18 @@
             <div class="col-md-8">
 
                 <h1 class="page-header">
-                    Page Heading
-                    <small>Secondary Text</small>
+                    Welcome to BlogSpot
+                    <br><small>This is a testing PHP page.</small>
                 </h1>
 
-                <!-- First Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
-                <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
+                <!-- Blog Posts -->
+                <?php 
+                    include 'functions/functions.php';
                 
-
+                    //Retrieves ALL posts
+                    getPosts($connection, "SELECT * from posts;");
+                ?>
+                
             </div>
 
             <!-- Blog Sidebar Widgets Column -->

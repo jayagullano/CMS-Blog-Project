@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--
+
+    
+        Author: Rolando Agullano
+        Date: 02/01/2021
+        File: navigate.php
+    
+        This file controls the header, as well as importing the bootstrap framework.
+
+-->
+
 <head>
 
     <meta charset="utf-8">
@@ -9,7 +20,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Home - Start Bootstrap Template</title>
+    <title>BlogSpot - Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
