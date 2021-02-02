@@ -1,3 +1,14 @@
+    <!--
+
+    
+        Author: Rolando Agullano
+        Date: 02/01/2021
+        File: search.php
+    
+        This is the search screen as a result from searching from the sidebar.
+
+    -->
+    
     <!-- Connect to the database -->
     <?php include './includes/db.php'; ?>
     
